@@ -1,0 +1,29 @@
+.slider {
+	width: 100%;
+	z-index: 1;
+	padding-bottom: 4rem;
+}
+
+.slider > img {
+	width: 100%;
+}
+
+.info {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+	padding-bottom: 4rem;
+}
+
+section.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	padding: 3rem 0rem 5rem;
+}
+
+@media (max-width: 768px) {
+	section.grid {
+		grid-template-columns: 1fr;
+	}
+}
